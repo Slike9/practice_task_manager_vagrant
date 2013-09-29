@@ -94,11 +94,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         #    :server_debian_password => '',
         #    :server_repl_password   => ''
         #},
-        #"postgresql" => {
-        #    "password" => {
-        #        "postgres" => ""
-        #    }
-        #},
+        "postgresql" => {
+            "password" => {
+                "postgres" => ""
+            }
+        },
         "rvm" => {
             #"rubies"  => ["2.0.0-p247"],
             #"global_gems" => [
